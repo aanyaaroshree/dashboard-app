@@ -1,9 +1,10 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import "./page.css";
 
 export default function Dashboard() {
+const [time, setTime] = useState("");
 
 const [logs, setLogs] = useState<string[]>([]);
 
@@ -117,6 +118,26 @@ addLog("Button [Capture] Clicked");
 
 
 };
+useEffect(() => {
+
+  const updateClock = () => {
+
+    const now = new Date();
+
+    setTime(
+      now.toLocaleTimeString()
+    );
+  };
+
+  updateClock();
+
+  const interval =
+    setInterval(updateClock, 1000);
+
+  return () =>
+    clearInterval(interval);
+
+}, []);
 
 return (
 
@@ -128,6 +149,9 @@ return (
     <span title="Stop">⏸</span>
     <span title="Capture">📷</span>
   </div>
+  <div className="clock">
+  {time}
+</div>
 
   <h1>Hi There!</h1>
 
