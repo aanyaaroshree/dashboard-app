@@ -155,11 +155,11 @@ background-color: rgb(83, 135, 203);
 .clock {
     position: fixed;
     top: 10px;
-    right: 90px;
+    left: 25px;
 
     color: whitesmoke;
     font-family: "Merriweather", serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: bold;
 
     z-index: 1000;
