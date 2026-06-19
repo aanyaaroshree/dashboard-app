@@ -1,10 +1,10 @@
 # Dashboard (Next.js + React)[Task-2]
 
-#Overview
+## Overview
 
 This project is a React-based webcam dashboard developed using the Next.js App Router framework. It is a migration of the original static HTML/CSS/JavaScript implementation into a component-based architecture using React state management.
 
-#Features
+## Features
 
 - Webcam video display
 - Start camera functionality
@@ -17,7 +17,7 @@ This project is a React-based webcam dashboard developed using the Next.js App R
 - App Router implementation
 - Instant UI updates without page reload
 
-#Technologies Used
+## Technologies Used
 
 - Next.js
 - React
@@ -29,7 +29,7 @@ This project is a React-based webcam dashboard developed using the Next.js App R
 - DOM Events
 - Timer API
 
-#Running the project:
+## Running the project:
 
 1. Install dependencies:
 
@@ -43,8 +43,8 @@ npm run dev
 
 http://localhost:3000/dashboard
 
-#Project Structure
-
+## Project Structure
+```
 dashboard-app/
     ├── dashboard/
     │ ├── page.tsx
@@ -52,3 +52,5 @@ dashboard-app/
     ├── layout.tsx
     ├── globals.css
     └── page.tsx
+    
+```
