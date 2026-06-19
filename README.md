@@ -23,11 +23,11 @@ This project is a React-based webcam dashboard developed using the Next.js App R
 - React
 - TypeScript
 - CSS
--Browser APIs
-- MediaDevices API
-- MediaStream API
-- DOM Events
-- Timer API
+- Browser APIs
+    - MediaDevices API
+    - MediaStream API
+    - DOM Events
+    - Timer API
 
 ## Running the project:
 
@@ -52,5 +52,5 @@ dashboard-app/
     ├── layout.tsx
     ├── globals.css
     └── page.tsx
-    
+
 ```
