@@ -43,3 +43,12 @@ npm run dev
 
 http://localhost:3000/dashboard
 
+#Project Structure
+
+dashboard-app/
+    ├── dashboard/
+    │ ├── page.tsx
+    │ └── page.css
+    ├── layout.tsx
+    ├── globals.css
+    └── page.tsx
