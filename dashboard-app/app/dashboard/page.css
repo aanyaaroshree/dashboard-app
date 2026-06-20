@@ -84,20 +84,36 @@ justify-content: center;
 }
 
 button {
-padding: 20px 40px;
-border: darkolivegreen;
-border-radius: 12px;
-background-color: rgb(101, 181, 238);
-color: white;
-font-family: "Merriweather", serif;
-cursor: pointer;
-transition: background-color 0.3s ease;
-text-transform: uppercase;
-text-align: justify;
+    padding: 20px 40px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: rgb(83, 135, 203);
+
+    color: white;
+
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.3s ease,
+        transform 0.2s ease,
+        opacity 0.3s ease,
+        box-shadow 0.3s ease;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-button {
-background-color: rgb(83, 135, 203);
+button:hover {
+    background-color: rgb(110, 165, 235);
+
+    transform: translateY(-3px);
 }
 #logList li {
     margin-bottom: 15px;
